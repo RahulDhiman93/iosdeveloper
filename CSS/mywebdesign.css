@@ -1,0 +1,61 @@
+* {
+	margin: 3px;
+	font-family: sans-serif;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.link {
+	width: 1500px;
+	height:500px;
+}
+
+.myself {
+	font-weight: lighter;
+	vertical-align: bottom;
+}
+
+.logo {
+	height: 70px;
+	width: 70px;
+	text-align: ce
+}
+
+.lined {
+	color: #0000FF;
+	width: 100%;
+	font-size:  50px;
+	margin-top: 15px;
+	font-family: "Times New Roman", Georgia, Serif;
+	text-align: center;
+}
+
+.box {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-around;
+}
+
+.box figure {
+	width: calc(100%/3);
+	height: auto;
+	margin:0;
+	text-align: center;
+}
+
+@media (max-width: 768px) {
+    .box figure {
+        width: 100%;
+    }
+}
+
+.BB {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
